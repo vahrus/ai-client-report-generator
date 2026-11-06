@@ -1,0 +1,43 @@
+# Секреты и локальная конфигурация
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Окружение и кэш Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+
+# Журналы и временные файлы
+logs/
+*.log
+*.tmp
+*.temp
+*.bak
+*~
+*.swp
+*.swo
+
+# Сгенерированные отчёты могут содержать данные клиента
+reports/*.pdf
+reports/*.json
+!reports/.gitkeep
+
+# Служебные файлы системы и редактора
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
